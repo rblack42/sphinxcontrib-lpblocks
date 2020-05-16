@@ -11,3 +11,6 @@ install:
 
 script:
     - tox -v
+
+after_success:
+    - coveralls
