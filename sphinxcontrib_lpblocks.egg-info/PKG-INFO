@@ -1,13 +1,13 @@
 Metadata-Version: 2.1
 Name: sphinxcontrib-lpblocks
-Version: 0.0.5
+Version: 0.0.7
 Summary: Literate Programming with reStructuredText
 Home-page: https://github.com/rblack42/sphinxcontrib-lpblocks
 Author: Roie R. Black
 Author-email: roie.black@gmail.com
 License: BSD 3-Clause
 Download-URL: http://pypi.python.org/pypi/sphinxcontrib-lpblocks
-Description: sphinxcontrib-lpblocks (v0.0.5)
+Description: sphinxcontrib-lpblocks (v0.0.7)
         ###############################
         
         |travis| |codecov| |version| |license|
@@ -36,6 +36,8 @@ Description: sphinxcontrib-lpblocks (v0.0.5)
         
         .. |license| image:: https://img.shields.io/pypi/l/sphinxcontrib-lpblocks.svg
             :target: https://pypi.python.org/pypi/sphinxcontrib-lpblocks/
+        
+        
         
         
         

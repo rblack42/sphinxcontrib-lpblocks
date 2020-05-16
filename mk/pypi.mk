@@ -1,7 +1,7 @@
 .PHONY: build
 build:	inc-build	## bump build and package project for PyPi
 	python setup.py sdist bdist_wheel
-	twine check list/*
+	twine check dist/*
 
 .PHONY: pypitest
 pypitest:	## Upload project to PyPi test site
