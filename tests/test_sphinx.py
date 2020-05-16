@@ -6,6 +6,7 @@
 """
 
 from sphinx_testing.util import path, with_app
+import sphinxcontrib.lpblocks
 
 srcdir = path(__file__).dirname().joinpath('sphinx').abspath()
 
