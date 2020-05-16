@@ -10,7 +10,15 @@
 __pycache__
 _venv
 
+# Testing
+.coverage
+.tox
+
 # Sphinx
 rst/_build
 
+# Pypi
+build
+cover
+dist
 

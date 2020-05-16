@@ -2,6 +2,7 @@ wheel
 twine
 tox
 nose
+mock
 coverage
 flake8
 python-coveralls
