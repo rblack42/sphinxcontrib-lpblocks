@@ -14,3 +14,6 @@ sphinxcontrib_lpblocks.egg-info/namespace_packages.txt
 sphinxcontrib_lpblocks.egg-info/not-zip-safe
 sphinxcontrib_lpblocks.egg-info/requires.txt
 sphinxcontrib_lpblocks.egg-info/top_level.txt
+tests/__init__.py
+tests/test_package.py
+tests/test_sphinx.py
