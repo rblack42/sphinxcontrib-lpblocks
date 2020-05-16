@@ -21,9 +21,9 @@ This extension supports a version of Dr. Donald Knuth's Literate Programming wit
     :target: https://codecov.io/gh/rblack42/sphinxcontrib-lpblocks
     :alt: codecov
 
-.. |version| image:: https://img.shields.io/pypi/v/sphinxcontrib-bibtex.svg
-    :target: https://pypi.python.org/pypi/sphinxcontrib-bibtex/
-    :alt: latest version
+.. |version| image:: https://badge.fury.io/py/sphinxcontrib-lpblocks.svg
+   :target: https://badge.fury.io/py/sphinxcontrib-lpblocks
+   :alt: Latest PyPI version
 
 .. |license| image:: https://img.shields.io/pypi/l/sphinxcontrib-lpblocks.svg
     :target: https://pypi.python.org/pypi/sphinxcontrib-lpblocks/
