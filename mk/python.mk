@@ -13,3 +13,7 @@ pyinit:	## Create Python virtual environment
 pyreqs: requirements.txt 	## Load Python requirements
 	source _venv/bin/activate && \
 	pip install -r requirements.txt
+
+.PHONY: text
+test: ## Run unit tests with tox
+	tox -v

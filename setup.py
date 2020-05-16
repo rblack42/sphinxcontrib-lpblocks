@@ -24,9 +24,9 @@ setup(
     author=about.__author__,
     author_email=about.__email__,
     description=about.__summary__,
-    description_content_type = 'text/x-rst',
+    description_content_type='text/x-rst',
     long_description=long_description,
-    long_description_content_type = 'text/x-rst',
+    long_description_content_type='text/x-rst',
     zip_safe=False,
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',

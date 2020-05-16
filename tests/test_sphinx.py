@@ -2,14 +2,20 @@
 """
     test_sphinx
     ~~~~~~~~~~~
-
-    Basic test of Sphinx for testing
+    General Sphinx test and check output.
 """
 
-from sphinx_testing.util import with_app
+from sphinx_testing.util import path, with_app
 
-@with_app(buildername='html', srcdir='tests/fixtures/test_sphinx')
+srcdir = path(__file__).dirname().joinpath('sphinx').abspath()
+
+
+def teardown_module():
+    (srcdir / '_build').rmtree(True)
+
+
+@with_app(srcdir=srcdir)
 def test_sphinx(app, status, warning):
     app.builder.build_all()
-
-
+    warnings = warning.getvalue()
+    assert u'pylit' in warnings
