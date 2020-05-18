@@ -4,9 +4,10 @@ README.rst
 setup.cfg
 setup.py
 sphinxcontrib/__init__.py
-sphinxcontrib/lpblocks/__about__.py
 sphinxcontrib/lpblocks/__init__.py
-sphinxcontrib/lpblocks/__version__.py
+sphinxcontrib/lpblocks/__main__.py
+sphinxcontrib/lpblocks/incrementer.py
+sphinxcontrib/lpblocks/signon.py
 sphinxcontrib_lpblocks.egg-info/PKG-INFO
 sphinxcontrib_lpblocks.egg-info/SOURCES.txt
 sphinxcontrib_lpblocks.egg-info/dependency_links.txt
@@ -15,5 +16,5 @@ sphinxcontrib_lpblocks.egg-info/not-zip-safe
 sphinxcontrib_lpblocks.egg-info/requires.txt
 sphinxcontrib_lpblocks.egg-info/top_level.txt
 tests/__init__.py
-tests/test_package.py
-tests/test_sphinx.py
+tests/conftest.py
+tests/test_sanity.py

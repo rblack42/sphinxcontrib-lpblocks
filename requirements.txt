@@ -1,11 +1,11 @@
 wheel
 twine
 tox
-nose
+pytest
+pytest-cov
 mock
-coverage
 flake8
-python-coveralls
 sphinx
 sphinx-testing
 sphinx-rtd-theme
+click

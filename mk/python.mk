@@ -16,4 +16,6 @@ pyreqs: requirements.txt 	## Load Python requirements
 
 .PHONY: text
 test: ## Run unit tests with tox
+	pip uninstall -y sphinxcontrib-lpblocks && \
+	pip install . && \
 	tox -v

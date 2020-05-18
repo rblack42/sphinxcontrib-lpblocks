@@ -1,2 +1,3 @@
 [run]
-source = sphinxcontrib/*
+omit =
+    tests/*

@@ -8,8 +8,7 @@ import io
 from setuptools import setup, find_packages
 
 
-import sphinxcontrib.lpblocks.__about__ as about
-import sphinxcontrib.lpblocks.__version__ as version
+import sphinxcontrib.lpblocks as lp
 
 
 def readfile(filename):
@@ -21,13 +20,13 @@ readme = readfile("README.rst")
 
 setup(
     name='sphinxcontrib-lpblocks',
-    version=version.__version__,
-    url=about.__url__,
-    download_url=about.__pypi__,
-    license=about.__license__,
-    author=about.__author__,
-    author_email=about.__email__,
-    description=about.__summary__,
+    version=lp.version,
+    url=lp.url,
+    download_url=lp.pypi,
+    license=lp.license,
+    author=lp.author,
+    author_email=lp.email,
+    description=lp.summary,
     long_description="\n".join(readme),
     long_description_content_type='text/x-rst',
     zip_safe=False,
