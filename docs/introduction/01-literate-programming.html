@@ -1,0 +1,245 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Literate Programming &mdash; sphinxcontrib-lpblocks 0.0.1 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="../_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="sphinxcontrib=lpblocks" href="../index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> sphinxcontrib-lpblocks
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Literate Programming</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#lpblocks-and-github">LPblocks and Github</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">sphinxcontrib-lpblocks</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+      <li>Literate Programming</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="../_sources/introduction/01-literate-programming.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="literate-programming">
+<h1>Literate Programming<a class="headerlink" href="#literate-programming" title="Permalink to this headline">¶</a></h1>
+<p>Read time: 3.7 minutes (374 words)</p>
+<p>In 1984, Dr. Donald Knuth decided that software developers needed a new way to
+document their code. In Knuth’s mind, documentation should be written for the
+human reader, like a work of literature. The documentation should take the
+reader on a journey through the code, in whatever order makes sense in
+explaining the code. The actual code should be presented in small sections
+included within the document. Knuth wrote a few tools supporting his ideas,
+and those tools actually extract the code described in the document for
+processing by conventional development tools.</p>
+<p>Knuth’s idea did not take off as he wished, but there are many developers who
+feel this is the right way to approach explaining code.</p>
+<p>In my profession as a Computer Science educator, I have written thousands of
+lectures using the Python <a class="reference external" href="http://sphinx-doc.org/">Sphinx</a> tool, and have added some custom extensions
+that support a limited for m of Knuth’s concepts. This project seeks to expand
+my early experiments and present something I think can be very useful, both
+in teaching, and in software development.</p>
+<p>The <strong>sphinxcontrib-lpblocks</strong> extension allows developers to add blocks of
+code with embedded links to other sections of code in a manner very similar to
+Knuth’s original proposal. In addition, the extension supports adding shell
+commands that will extract the code presented so far, and run commands against
+that version of the code. Later work might replace earlier code with new
+blocks, and again those versions can be processed. This is basically how I
+present programming concepts in a classroom, and my lecture notes can be living
+documents using this extension.</p>
+<div class="section" id="lpblocks-and-github">
+<h2>LPblocks and Github<a class="headerlink" href="#lpblocks-and-github" title="Permalink to this headline">¶</a></h2>
+<p>There is one minor wrinkle in this idea. Most developers want their code to
+be hosted on something like <a class="reference external" href="https://github.com/">Github</a>, and managed by <a class="reference external" href="https://git-scm.com/">Git</a>. In deciding to document
+code using Literate Programming, it is the documentation that is the primary
+source to be managed. The code is in that documentation, but must be extracted
+for viewing, testing, and even releasing.</p>
+<p>That means that a visitor to a project n <a class="reference external" href="https://github.com/">Github</a> will not be able to explore the
+code directly. This might be considered a defect in this idea, but it actually
+is in keeping with Knuth’s original idea. Development should happen in the
+documentation, not not be produced as an afterthought!</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>I have som eideas how to integrate conventionsl Git management with
+Literate Programming. Those ideas may well appear in this project over
+time. Contributions are welcome!</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../index.html" class="btn btn-neutral float-left" title="sphinxcontrib=lpblocks" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2020, Roie R. Black
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
