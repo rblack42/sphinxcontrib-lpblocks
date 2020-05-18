@@ -13,19 +13,19 @@ This extension supports a version of Dr. Donald Knuth's Literate Programming wit
 
 * Development: https://github.com/rblack42/sphinxcontrib-lpblocks/
 
-.. |travis| image:: https://travis-ci.org/rblack42/sphinxcontrib-lpblocks.png?branch=master
+..  |travis| image:: https://travis-ci.org/rblack42/sphinxcontrib-lpblocks.png?branch=master
     :target: https://travis-ci.org/rblack42/sphinxcontrib-lpblocks
     :alt: travis-ci
 
-.. |codecov| image:: https://coveralls.io/repos/rblack42/sphinxcontrib-lpblocks/badge.png?branch=master
-    :target: https://coveralls.io/r/rblack42/sphinxcontrib-lpblocks?branch=master
-    :alt: Coverage status
+..  |codecov| image:: https://codecov.io/gh/rblack42/sphinxcontrib-lpblocks/branch/master/graph/badge.svg
+    :target: https://codecov.io/gh/rblack42/sphinxcontrib-lpblocks
+    :alt: codecov.io badge
 
-.. |version| image:: https://badge.fury.io/py/sphinxcontrib-lpblocks.svg
-   :target: https://badge.fury.io/py/sphinxcontrib-lpblocks
-   :alt: Latest PyPI version
+..  |version| image:: https://badge.fury.io/py/sphinxcontrib-lpblocks.svg
+    :target: https://badge.fury.io/py/sphinxcontrib-lpblocks
+    :alt: Latest PyPI version
 
-.. |license| image:: https://img.shields.io/pypi/l/sphinxcontrib-lpblocks.svg
+..  |license| image:: https://img.shields.io/pypi/l/sphinxcontrib-lpblocks.svg
     :target: https://pypi.python.org/pypi/sphinxcontrib-lpblocks/
 
 .. |quality| image:: https://codeclimate.com/github/rblack42/sphinxcontrib-lpblocks/badges/gpa.svg
