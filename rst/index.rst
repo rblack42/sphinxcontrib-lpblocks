@@ -1,4 +1,4 @@
-sphinxcontrib=lpblocks
+sphinxcontrib-lpblocks
 ======================
 
 .. toctree::

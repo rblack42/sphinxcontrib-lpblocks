@@ -21,4 +21,5 @@ rst/_build
 build
 cover
 dist
-
+*.egg-info/
+coverage.xml
