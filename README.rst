@@ -1,7 +1,7 @@
 sphinxcontrib-lpblocks (v0.0.7)
 ###############################
 
-|travis| |codecov| |version| |license| |quality|
+|travis| |apveyor| |codecov| |version| |license| |quality|
 
 Sphinx extensions for Literate Programming.
 
@@ -31,6 +31,8 @@ This extension supports a version of Dr. Donald Knuth's Literate Programming wit
 .. |quality| image:: https://codeclimate.com/github/rblack42/sphinxcontrib-lpblocks/badges/gpa.svg
    :target: https://codeclimate.com/github/rblack42/sphinxcontrib-lpblocks
 
-
+.. |apveyor| image:: https://img.shields.io/appveyor/ci/rblack42/sphinxcontrib-lpblocks/master.svg?style=flat-square&label=AppVeyor%20CI
+    :target: https://ci.appveyor.com/project/rblack42/sphinxcontrib-lpblocks
+    :alt: Build Status Windows
 
 
