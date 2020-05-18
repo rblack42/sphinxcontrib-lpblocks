@@ -13,4 +13,5 @@ script:
     - tox -v
 
 after_success:
-    - coveralls
+ 16     - bash <(curl -s https://codecov.io/bash)
+ 17
